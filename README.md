@@ -9,7 +9,7 @@
 
 ## 📌 Project Overview
 
-This repository contains my solution to the **Technical Evaluation Hackathon** conducted by **Innomatics Research Lab** as part of their internship selection process.
+This repository contains my solution to the **Technical Evaluation Hackathon** conducted by **Innomatics Research Lab** as part of their internship evaluation process.
 
 The challenge focused on a **real-world data engineering + analytics problem**:
 
@@ -18,6 +18,21 @@ The challenge focused on a **real-world data engineering + analytics problem**:
 The complete workflow—from raw data ingestion to business intelligence analysis—was implemented using **Python and Jupyter Notebook**, following clean, reproducible data science practices.
 
 ---
+
+
+
+| Feature | Details |
+| :--- | :--- |
+| **Total Transactions** | 10,000 Orders |
+| **Data Sources** | CSV (Orders), JSON (Users), SQL (Restaurants) |
+| **Primary Join Key** | `user_id` & `restaurant_id` |
+| **Join Methodology** | Multi-step Left Join (for data preservation) |
+| **Key Metrics** | Revenue, AOV, Cuisine Performance, Member Retention |
+| **Top Performing City** | Chennai |
+| **Top Cuisine** | Mexican |
+| **Tech Stack** | Python (Pandas, Matplotlib, Seaborn, SQLite3) |
+
+
 
 ## 🎯 Problem Statement
 
@@ -43,24 +58,6 @@ I approached the problem in **five deliberate stages**:
 5. **Business Intelligence Analysis & Insights**
 
 Each step is documented and implemented inside the Jupyter Notebook.
-
----
-
-## 🗂️ Repository Structure
-
-```
-├── data/
-│   ├── raw/            # Original datasets (multiple formats)
-│   ├── processed/      # Cleaned and transformed intermediate data
-│   └── integrated/     # Final unified dataset (single source of truth)
-│
-├── notebooks/
-│   └── analysis.ipynb  # End-to-end data integration & BI analysis
-│
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-```
-
 
 ---
 
