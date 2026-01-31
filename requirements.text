@@ -1,0 +1,8 @@
+Here,i have mentioned all the required modules with their versions .Install it before you run the project.
+
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+missingno>=0.5.2
+plotly>=5.13.0
+sqlite3
