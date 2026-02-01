@@ -193,15 +193,6 @@ This project demonstrates my ability to:
 ---
 
 
-## 👤 Author
-
-**Mrittika Srinivasan**
-
-* GitHub: [https://github.com/your-username](https://github.com/your-username)
-* LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-
-
----
 
 ## 📄 License
 
